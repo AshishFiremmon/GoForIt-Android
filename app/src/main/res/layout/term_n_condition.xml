@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/msgLyt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/term_base">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/term_text"
+        android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/termTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/term_condition"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="20dp"
+android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/responsiblegamingTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/responsible_game"
+android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="20sp" />
+</LinearLayout>
+    </ScrollView>

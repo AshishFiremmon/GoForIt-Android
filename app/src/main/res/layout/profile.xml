@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/responsiblegamingTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/responsible_game"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="20sp" />
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/msgLyt"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+
+        ></ListView>
+
+    <RelativeLayout
+        android:id="@+id/msgLyt"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/msg_base">
+
+        <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/msgcontentTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hi welcome to go4it"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/star"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/msgIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/msgLyt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/msz_box" />
+
+    <LinearLayout
+        android:id="@+id/msgListViewLyt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/customborder"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/closebtn" />
+
+        <ListView
+            android:id="@+id/listViewmsg"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#ffffff"
+            android:padding="10dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/popLyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/popup_box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/msgTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="You must download the game first"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ok_btn" />
+
+
+    </LinearLayout>
+</RelativeLayout>

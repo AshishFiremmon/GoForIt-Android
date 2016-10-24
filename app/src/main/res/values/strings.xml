@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Go4it Center Hub</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="responsible_game"><u>Responsible Gaming</u></string>
+
+    <string name="title_activity_wellcome">WellcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="discription">Your email is used to uniquely identify you and to link Go4it games to your Go4it Account and finally to send winners notifications. Your email is not used for any other purpose.</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="spinner_title">select</string>
+    <string name="facebook_app_id">1725305851066569</string>
+
+    <string name="term_condition"><b> How to Enter Contest</b>
+
+\n\n<b>1.</b> Download the Go4it app
+\n<b>2.</b> Create Go4it Account (Enter’ Avatar’ Name, ‘email address’, confirm ‘email address’ and select the country you are resident in)
+
+    \n<b>3.</b> Go to the ‘Games &amp; Prizes’ section on the Go4it app
+\n<b>4.</b> Select the game contest and download the game
+\n<b>5.</b> Link the game by entering your Go4it email ID
+\n<b>6.</b> Play and Go4it!\n\n
+
+
+<b>Rules and Terms and Conditions</b>
+
+\n\nAll Participants NO PURCHASE NECESSARY. Anyone can participate on the Go4it leader boards, however to participate for one of the cash prizes, participants will need to be 17+ of age, available on Microsoft store, Apple Store and on Android (Android Users please visit www.go4itapp.com).
+
+\n\nAll contests set and cash prizes offered by the Go4it App are offered solely by Go4it and have no connection to Apple and Microsoft.
+
+\n\n<b>Eligibility</b>
+
+\n\nThe Go4it app is a contest app and is open to anyone who can download the app from IOS Apple Store, Microsoft Store and for Android the www.go4itapp.com. Anyone can compete on the Go4it leader boards however to be eligible for the cash prizes participants must be aged 17 or over.
+
+\n\nAnyone involved with the Go4it app are not eligible for the cash prizes i.e. Owners and their immediate families and any other employees of Go4it.
+
+\n\nIf you participate from a country that does not allow Go4it to operate in their country then you will be ineligible to participate for the prize fund, however you can still compete on the Go4it leader boards.
+
+\n\n<b>Contest Period</b>
+
+\n\nThe contests will be set in UK Greenwich Mean Time, the ‘Games and Prizes’ section of the Go4it app will show whether a contest is running, if a contest is running the contest end date and time will be displayed. Also to ensure users know how much time is left on a contest, once a user participates then a countdown timer for that contest will be displayed in the ‘Home’ section of the Go4it app showing how many days, minutes and seconds are left.
+
+\n\n<b>Prize Fund</b>
+
+\n\nThe Go4it App is a free contest app designed to set contests on mobile app games over a set period of time with cash prizes. Users can play games produced by Go4it with a chance of winning a cash prize, the cash prizes are rewarded to the top 5 positions on each Go4it leader board, once finalised at the end of each contest. The Go4it Leader boards will be updated instantly, as the Go4it games are played online only.
+
+\n\nThe Prize fund for each game will become active once there are 200,000 participants on the games leader board on the Go4it App. If the amount of participants do not reach 200,000 then Go4it have the right to reduce or remove the prize fund.
+\n\nIf more than 200,000 participants participate from any one country, that country will have its own leader board with a separate prize fund for just that country, whilst the rest of the world would compete for the original prize fund.
+
+\n\nUsers can only win one prize per game. If all winners of prizes live together then Go4it have the right to only provide one prize and pass the prizes to the next contestant on the leader board.
+
+\n\n<b>Winner Confirmation and Claim Process</b>
+
+\n\nThe finalised Go4it leader board will be final, so if for any unforeseen reason any user’s high score was not posted on time before the end of the contest, Go4it will not be held responsible.
+Once final leader boards are updated, the final top 50 will be shown on the Go4it website (www.go4itapp.com) and winners will be contacted via their email address and through the Go4it App.
+
+
+
+\n\nWinners are confirmed and contacted via their email address and will also be notified through the Go4it app within 48 hours of contest end date. Winners once confirmed will be sent a link to our website via email where they will be required to enter their contact details. Winners will have 10 days from the contest end date to claim the prize fund, if winners do not claim their prize or cannot provide information requested, the prize will then be offered to the contestant below them on the leader board. We will then get in contact via telephone to confirm details required for age verification and for country tax purposes, if the winner cannot provide the information requested then they forfeit the prize. Once this process is confirmed payment will be made, the transfer of the prize fund will occur via PayPal, Banks transfer, International banks transfer or by Cheque.
+
+\n\nWinners may be requested to take part in promotional activity and Go4it reserves the right to use the names and locations and photos of winners in any publicity both in paper and online. If the winner decides not to participate in this promotional activity, then their prize maybe forfeited to the next contestant.
+\n\nIf the user selects the wrong country at the point of creating a Go4it account and participates on the incorrect leader board, their high score will be void, unless the user can contact Go4it via email to rectify the country issue prior to the end of any contests. If email is received prior to the end of any contest the score will remain valid and allocated to the correct leader board, therefore will count towards the final leader board for that contest.
+\n\nThe registered keeper of the email address will be the winner of the cash prize, so If anyone uses someone else’s email address to compete on the Go4it App, this will only mean you are playing for someone else as the winner will be notified by email, so the owner of the email will be given the prize. If the user creates or links the wrong email just delete the app and re-download and enter correct details.
+
+\n\n<b>Prize Details</b>\n\n
+
+The Prize fund consists of 5 prizes per game, these prizes are listed on the Go4it app under the ‘Games &amp; Prizes’ section. Select the prize icon and all cash prizes associated with that contest will be listed. Each contest will have its own set prizes, as mentioned above if the amount of users exceeds 200,000 from one country a separate leader board will be set up with its own prize fund, the prize fund for the new leader board will be the same for that contest.
+
+\n\n<b>Push Notifications and General Notifications</b>\n\n
+
+Go4it also have the right to contact users either privately or by group through the Go4it app. These messages will appear directly on the ‘Home’ section on the Go4it app.
+
+\n\nPush notifications are used to notify any user directly through the app, so if you drop out of the top 5 positions, a push notification will be sent to alert users of this as the user is now no longer in a prize winning position. Also used to alert winners of prizes.
+\n\nIf you choose not to allow push notifications Go4it will not be held responsible for non-notification.
+\n\nGeneral Notifications are sent to every user to motivate and inspire them throughout the contest duration and to encourage users to share and promote the Go4it app.
+
+\n\n<b>Go4it Rights to Amendments and Termination</b>\n\n
+
+If for any reason the contests do not go according to plan, due to any technical difficulties or any attempt of fraudulent activity. Go4it have the right to amend the contest or to terminate the contest if any of the above occurs.
+
+    \n\nAny duplicated accounts set up that either stand idle or have only played a game once throughout the whole of the contest period will be deleted and not counted towards the 200,000 participants needed to release the prize fund.
+        \n\nIf Go4it suspect any user of cheating or fraudulent behavior, the situation will be investigated by Go4it and full prosecution of the Law will be used, if Go4it have reasonable doubt of any misconduct, Go4it have the right to disqualify the user and delete their go4it account.
+
+\n\n<b>Games and Leader Board Conditions</b>\n\n
+
+The games will be kept simple and as fair as possible, we keep the games simple to ensure anyone can play the games, also we make games fair by ensuring every user will have the same opportunities to earn extra bonus points, if extra points are available in the game.
+
+\n\nThe games will provide everyone the same opportunities to gain extra bonus points, by building code that will provide a set amount of extra bonus point opportunities over a set period of time keeping it fair for everyone, allowing anyone to compete and win regardless of their age, whether they spend 5 minutes on the games or hours.
+
+\n\nThe Go4it leader board will keep records of every user’s highest score and therefore showing what position a user is at. The positon of a user is determined by the highest score being position one and sorted by high to low. In terms of score ranking on the leader board the first to reach a score will always be positioned 1st, so if a user reaches a high score first for example 100 and is currently 1st on the leader board, and then another user reaches a high score of 100 this user will be 2nd on the leader board so if a 3rd user reaches a high score of 100 this user would be 3rd on the leader board and so forth.
+
+\n\n<b>Privacy Policy</b>\n\n
+
+The one item of personal data used by Go4it is the users email address, which Go4it stores to uniquely identify the user when creating a Go4it Account and to link Go4it games to the users Go4it account. Also if the user wins a prize the users email address will be used to send a notification to the user.
+
+\n\nAs Go4it are not a marketing company, the users email address will not be used for any other purpose.
+        \n\nGo4it require you to select the country you are resident in for our leader board purposes.
+
+
+
+\n\n<b>Contact Us</b>\n\n
+
+
+If you need to get in contact with Go4it, please email enquiries@go4itapp.com and we will endeavour to get back to you within 48 hours.
+</string>
+
+
+    <string name="res_txt"><b>Responsible Gaming</b>\n\n
+
+Please be aware Go4it App is a Contest App which does not require any wagers of any monetary terms to participate and is free to play.
+
+\n\nHowever as Go4it do offer  prizes we would like to offer some advice and rules to ensure users have a positive gaming experience.
+
+\n\nGo4it sets its contests over set time periods which ensure users can play for 10 – 15 minutes every other day and they have ample opportunities to compete.
+
+\n\n<b>Rules to ensure you have a positive gaming experience.</b>\n\n
+
+By observing the following rules, you will be able to relax and enjoy your gaming experience:\n\n
+
+•	Gaming is just for fun, not a way of earning money
+•	Only play when you have time
+•	Play for entertainment value
+•	Take regular breaks\n\n
+
+<b>When should behaviour be considered problematic?</b>
+
+\n\nWe would like to stress that diagnoses relating to clinical disorders can only be made by trained specialists. Below offers material which will allow you to quickly assess and consider your own behaviour. If you can identify with some of the following characteristics, we recommend that you self-exclude and contact a counselling provider.
+
+\n\n•	Do you feel restless or irritable when attempting to cut down or stop gaming?
+•	Have you made repeated unsuccessful efforts to control, cut back, or stop gaming?
+•	Are you often preoccupied with gaming?
+•	Do you lie to conceal the extent of involvement with gaming?
+•	Have you jeopardised or lost a significant relationship, job, or educational or career opportunity because of gaming?
+•	Do you feel as if gaming has taken over your life?
+
+\n\nThe following links below have no connection with Go4it, however maybe a good source of help, if you feel as if you are developing an addiction to gaming.
+
+\n\n<u>www.video-game-addiction.org/video-game-addiction-treatment.html</u>
+\n<u>www.videogameaddiction.co.uk</u>
+</string>
+
+
+</resources>

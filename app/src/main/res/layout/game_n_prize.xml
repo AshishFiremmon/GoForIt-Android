@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+
+        android:visibility="visible"
+
+        ></ListView>
+
+    <LinearLayout
+        android:id="@+id/scoreListLyt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/score_tittle" />
+
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/closebtn" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/topscoreGameIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/game_icon"
+
+                />
+
+
+            <TextView
+                android:id="@+id/topscoreGameName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="flappy bird"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:divider="@null"
+
+            android:dividerHeight="1dp"></ListView>
+
+    </LinearLayout>
+
+    <!--  <ScrollView
+          android:id="@+id/prizeLyt"
+           android:id="@+id/prizeView"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:visibility="visible">
+
+   -->
+    <RelativeLayout
+        android:id="@+id/prizeLyt"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/gameLyt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/prizes_txt" />
+
+                <ImageView
+                    android:id="@+id/close_bt_prize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/closebtn" />
+
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/gameIconPrize"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/game_icon"
+
+                />
+
+
+            <TextView
+                android:id="@+id/prizeGamename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="flappy bird"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_below="@+id/gameLyt"
+            android:id="@+id/prize"
+            android:layout_marginTop="5dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/firstRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/prize_size_width"
+                        android:layout_height="@dimen/prize_size_hieght"
+                        android:background="@drawable/first_prize" />
+
+                    <TextView
+                        android:id="@+id/firstprize"
+                        android:layout_width="@dimen/prize_size_width"
+                        android:layout_height="@dimen/text_size_hieght"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/prizes_txt_base"
+                        android:gravity="center"
+                        android:shadowColor="@color/black_overlay"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius=".5"
+                        android:text="£0"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/prize_size_width"
+                        android:layout_height="@dimen/prize_size_hieght"
+                        android:background="@drawable/sec_prize" />
+
+                    <TextView
+                        android:id="@+id/secprize"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/text_size_hieght"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/prizes_txt_base"
+                        android:gravity="center"
+                        android:shadowColor="@color/black_overlay"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius=".5"
+                        android:text="£0"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstRow"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/prize_size_width"
+                        android:layout_height="@dimen/prize_size_hieght"
+                        android:background="@drawable/third_prize" />
+
+                    <TextView
+                        android:id="@+id/thirdprize"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/text_size_hieght"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/prizes_txt_base"
+                        android:gravity="center"
+                        android:shadowColor="@color/black_overlay"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius=".5"
+                        android:text="£0"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/prize_size_width"
+                        android:layout_height="@dimen/prize_size_hieght"
+                        android:background="@drawable/fourth_prize" />
+
+                    <TextView
+                        android:id="@+id/fourthprize"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/text_size_hieght"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/prizes_txt_base"
+                        android:gravity="center"
+                        android:shadowColor="@color/black_overlay"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius=".5"
+                        android:text="£0"
+
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/prize_size_width"
+                        android:layout_height="@dimen/prize_size_hieght"
+                        android:background="@drawable/fifth_prize" />
+
+                    <TextView
+
+                        android:id="@+id/fifthprize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/text_size_hieght"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/prizes_txt_base"
+                        android:gravity="center"
+                        android:shadowColor="@color/black_overlay"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius=".5"
+                        android:text="£0"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <!-- </ScrollView>-->
+</RelativeLayout>
